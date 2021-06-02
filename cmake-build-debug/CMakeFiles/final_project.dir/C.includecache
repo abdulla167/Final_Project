@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abdulla167/avr8-gnu-toolchain/avr/include/inttypes.h
+stdint.h
+-
+inttypes.h
+-
+
+/home/abdulla167/avr8-gnu-toolchain/avr/include/stdint.h
+
+/home/abdulla167/avr8-gnu-toolchain/avr/include/stdio.h
+inttypes.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdio.h
+-
+
+/home/abdulla167/embedded/final_project/main.c
+stdio.h
+-
+
